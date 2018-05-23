@@ -7,7 +7,7 @@ namespace AngularExperiment
 {
     public class HumanDomain
     {
-        public OwnedProperty ownedProperty  { get; set; }
+        public List<OwnedProperty> ownedProperty  { get; set; }
         public Person person { get; set; }
     }
     public class OwnedProperty
